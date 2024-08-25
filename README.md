@@ -70,7 +70,8 @@ This project is a modern AI chatbot that leverages the OpenAI API to create an i
     ```bash
     npm run dev
     ```
-![image](https://github.com/user-attachments/assets/974b75cc-bc99-42b7-a690-36075dcd25d5)
+![merngpt](https://github.com/user-attachments/assets/c711a6e0-100c-4eb5-93ad-5e7fe70dd2d7)
+
 ![merngpt](https://github.com/user-attachments/assets/eaa456cf-445b-48af-a055-422b8d3abdf5)
 
 ## Usage
