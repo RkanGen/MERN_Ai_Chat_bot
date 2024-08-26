@@ -18,12 +18,15 @@ jobs:
         with:
           node-version: '16'  # Make sure this matches your project’s Node.js version
 
-      - name: Install Dependencies
+      - name: Install Backend Dependencies
         run: |
           cd backend
           npm install
-          cd ../frontend
-          pnpm install
+
+      - name: Install Frontend Dependencies
+        run: |
+          cd frontend
+          npm install
 
       - name: Run Backend Tests
         run: |
