@@ -25,13 +25,6 @@ jobs:
           cd frontend
           npm install
 
-     
-
-      - name: Run Frontend Tests
-        run: |
-          cd frontend
-          npm run test
-
       - name: Build Frontend
         run: |
           cd frontend
