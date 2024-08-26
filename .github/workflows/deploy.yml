@@ -21,24 +21,24 @@ jobs:
       - name: Install Dependencies
         run: |
           cd backend
-          pnpm install
+          npm install
           cd ../frontend
           pnpm install
 
       - name: Run Backend Tests
         run: |
           cd backend
-          pnpm run test
+          npm run test
 
       - name: Run Frontend Tests
         run: |
           cd frontend
-          pnpm run test
+          npm run test
 
       - name: Build Frontend
         run: |
           cd frontend
-          pnpm run build
+          npm run build
 
       - name: Deploy to GitHub Pages (Optional)
         uses: peaceiris/actions-gh-pages@v3
