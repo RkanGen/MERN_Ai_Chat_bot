@@ -23,16 +23,15 @@ jobs:
           cd backend
           npm install
 
-      # Skip or comment out the backend test step if no test script is available
-      # - name: Run Backend Tests
-      #   run: |
-      #     cd backend
-      #     npm run test
-
       - name: Install Frontend Dependencies
         run: |
           cd frontend
           npm install
+
+      - name: Run Backend Tests
+        run: |
+          cd backend
+          npm run test
 
       - name: Run Frontend Tests
         run: |
